@@ -15,6 +15,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -471,3 +472,26 @@ html {
 }
 
 /* End of Section 4 */
+
+.scroll-up-btn {
+  width: 5rem;
+  height: 5rem;
+  
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+
+  background-color: rgba(50, 231, 255, 0.8);
+  transition: background-color 0.5s;
+
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-up-btn:hover {
+  background-color: #32e7ff;
+}
