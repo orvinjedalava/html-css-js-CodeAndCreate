@@ -312,3 +312,122 @@ html {
 }
 
 /* End of Section 1 */
+
+/* Section 2 */
+.section-2 {
+  padding: 0 10rem;
+  background-color: #222020;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.section-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  font-weight: 300;
+  color: #ddd;
+  margin-right: 4rem;
+}
+
+.section-heading-line {
+  background-color: #ddd;
+
+  width: 15rem;
+  height: 0.2rem;
+
+}
+
+.video-wrapper {
+  width: 100rem;
+  height: 50rem;
+  position: absolute;
+  top: 5rem;
+  right: 15rem;
+  box-shadow: 3rem 3rem 3rem rgba(0,0,0,0.7);
+}
+
+.video {
+  opacity: 0.3;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  background-color: rgba(0,0,0,0.7);
+
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.video-bar-wrapper {
+  background-color: #000;
+
+  width: 100%;
+  height: 0.7rem;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.video-bar {
+  background-color: #d30819;
+
+  height: 100%;
+  width: 20%;
+}
+
+.buttons {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons i {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.section-2-paragraph {
+  font-size: 2rem;
+  color: #ddd;
+  border-top: 0.3rem double #aaa;
+  border-bottom: 0.3rem double #aaa;
+  padding: 2rem;
+  text-align: justify;
+  text-shadow: 1rem 1rem 2rem rgba(0,0,0,0.7);
+  line-height: 1.5;
+
+  width: 100rem;
+  position: absolute;
+  bottom: 8rem;
+  right: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-quote-left {
+  align-self: flex-start;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.fa-quote-right {
+  align-self: flex-end;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+/* End of Section 2 */
